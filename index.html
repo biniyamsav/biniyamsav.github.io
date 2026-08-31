@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biniyam Worku — Data Analyst / AI Engineer in progress</title>
+<meta name="description" content="Portfolio of Biniyam Worku — data analytics and machine learning projects, resume, and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-bg" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="wordmark">Biniyam Worku</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-text">
+      <p class="eyebrow-line">Addis Ababa, Ethiopia &nbsp;·&nbsp; B.Sc. Computer Science, expected 2028</p>
+      <h1>Data analyst today.<br>Building toward AI&nbsp;engineering.</h1>
+      <p class="hero-lede">
+        I turn messy, real datasets into dashboards, models, and decisions —
+        SQL schemas, Python pipelines, and interactive tools that people
+        actually use. Currently deepening machine learning and moving toward
+        retrieval-augmented generation and AI agent systems.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See the work</a>
+        <a href="#resume" class="btn btn-ghost">Get my résumé</a>
+      </div>
+    </div>
+
+    <div class="hero-panel" aria-label="Project metrics">
+      <div class="panel-head">
+        <span class="panel-dot"></span> live_metrics.log
+      </div>
+      <ul class="stat-grid">
+        <li>
+          <span class="stat-value">0.98</span>
+          <span class="stat-label">Adjusted Rand Index<br>customer segmentation</span>
+        </li>
+        <li>
+          <span class="stat-value">40<span class="stat-unit">+</span></span>
+          <span class="stat-label">SQL queries written<br>inventory analytics</span>
+        </li>
+        <li>
+          <span class="stat-value">1.07<span class="stat-unit">M</span></span>
+          <span class="stat-label">Transactions analyzed<br>RFM segmentation</span>
+        </li>
+        <li>
+          <span class="stat-value">0.42</span>
+          <span class="stat-label">R² match predictor<br>Premier League model</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section wrap">
+    <div class="section-head">
+      <h2>About</h2>
+    </div>
+    <div class="about-body">
+      <p>
+        I'm a 3rd-year Computer Science student at Addis Ababa University,
+        and I learn by shipping — every project on this page is something I
+        designed, built, and deployed myself, not a tutorial followed
+        line-by-line. My work so far sits in data analytics: SQL schema
+        design, Python data pipelines, and dashboards people can actually
+        click through.
+      </p>
+      <p>
+        I'm currently working through the deeper mechanics of machine
+        learning and moving toward retrieval-augmented generation and AI
+        agent systems, with the goal of becoming an AI engineer. I practice
+        data structures and algorithms consistently alongside project work,
+        and I'd rather have three finished, honestly-documented projects
+        than ten half-built ones.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section wrap">
+    <div class="section-head">
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-table">
+      <div class="skills-row">
+        <span class="skills-cat">Languages</span>
+        <span class="skills-items">Python, SQL, C++</span>
+      </div>
+      <div class="skills-row">
+        <span class="skills-cat">Data analysis</span>
+        <span class="skills-items">Pandas, NumPy, data cleaning &amp; preprocessing, exploratory analysis, RFM &amp; cohort analysis</span>
+      </div>
+      <div class="skills-row">
+        <span class="skills-cat">Machine learning</span>
+        <span class="skills-items">scikit-learn — regression, K-Means, GMM, DBSCAN, model validation &amp; stability testing</span>
+      </div>
+      <div class="skills-row">
+        <span class="skills-cat">Databases</span>
+        <span class="skills-items">PostgreSQL, MySQL — schema design, joins, window functions, query optimization</span>
+      </div>
+      <div class="skills-row">
+        <span class="skills-cat">Dashboards &amp; BI</span>
+        <span class="skills-items">Streamlit, Plotly, Matplotlib, Power&nbsp;BI</span>
+      </div>
+      <div class="skills-row">
+        <span class="skills-cat">Tools</span>
+        <span class="skills-items">Git, GitHub, Jupyter Notebook, Excel</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section wrap">
+    <div class="section-head">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="project-list">
+
+      <article class="project-row">
+        <span class="row-index">01</span>
+        <div class="row-body">
+          <div class="row-top">
+            <h3>E-Commerce Inventory &amp; Performance Analytics Dashboard</h3>
+            <span class="row-stack">PostgreSQL · Python · Streamlit</span>
+          </div>
+          <p>
+            An 8-table PostgreSQL schema and 40+ SQL queries power a
+            full-stack dashboard tracking sales, inventory, and supplier
+            performance across 40,000+ simulated orders and 8 warehouses.
+            A linear regression layer forecasts next-week product demand to
+            support inventory planning.
+          </p>
+          <div class="row-links">
+            <a href="https://github.com/biniyamsav/ecommerce-inventory-dashboard" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://biniyamsav-ecommerce-inventory-dashboard-dashboardapp-rur523.streamlit.app" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <span class="row-index">02</span>
+        <div class="row-body">
+          <div class="row-top">
+            <h3>E-Commerce Customer Segmentation</h3>
+            <span class="row-stack">Python · scikit-learn · Streamlit</span>
+          </div>
+          <p>
+            RFM analysis on 1.07M+ transactions from 5,878 customers,
+            segmented into 5 groups via K-Means clustering. Validated
+            against Gaussian Mixture and DBSCAN models with stability
+            testing across resampled subsets, reaching a mean Adjusted
+            Rand Index of 0.98.
+          </p>
+          <div class="row-links">
+            <a href="https://github.com/biniyamsav/ecommerce-customer-segmentation" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <span class="row-index">03</span>
+        <div class="row-body">
+          <div class="row-top">
+            <h3>Hospital Analytics Dashboard</h3>
+            <span class="row-stack">SQL · Python · Pandas · Streamlit</span>
+          </div>
+          <p>
+            SQL-driven dashboard surfacing patient admission trends, average
+            length of stay, and department-level financial performance —
+            built to make clinical and financial KPIs readable for
+            non-technical stakeholders.
+          </p>
+          <div class="row-links">
+            <a href="https://github.com/biniyamsav/hospital-analytics-dashboard" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <span class="row-index">04</span>
+        <div class="row-body">
+          <div class="row-top">
+            <h3>Premier League Match Predictor</h3>
+            <span class="row-stack">Python · scikit-learn · Streamlit</span>
+          </div>
+          <p>
+            Multi-output linear regression predicting Premier League
+            scorelines from 10 seasons of match and betting-odds data
+            (R² = 0.42, MAE = 0.74 goals). Documents its own limitations —
+            it can't capture rare high-scoring outliers — and proposes
+            Poisson regression as the fix.
+          </p>
+          <div class="row-links">
+            <a href="https://github.com/biniyamsav/Premier_league_match_predictive_model" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section wrap">
+    <div class="section-head">
+      <h2>Résumé</h2>
+    </div>
+    <p class="resume-lede">Two versions, tailored to what a reader is actually screening for.</p>
+    <div class="resume-cards">
+      <div class="resume-card">
+        <h3>Data Analytics track</h3>
+        <p>SQL, dashboards, BI tools — for data analyst &amp; BI internship applications.</p>
+        <a href="assets/Biniyam_Worku_Resume_DA.docx" class="btn btn-primary" download>Download .docx</a>
+      </div>
+      <div class="resume-card">
+        <h3>AI Engineering track</h3>
+        <p>ML modeling, deployment, and the path toward RAG &amp; agents.</p>
+        <a href="assets/Biniyam_Worku_Resume_AI.docx" class="btn btn-primary" download>Download .docx</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- CONTACT / FOOTER -->
+<footer id="contact" class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-main">
+      <h2>Let's talk.</h2>
+      <p>Open to data analyst and AI/ML internships, entry-level roles, and freelance analytics work.</p>
+      <a href="mailto:biniwr99@gmail.com" class="btn btn-primary">biniwr99@gmail.com</a>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/biniyamsav" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/biniyam-worku-663a1432b/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>Biniyam Worku — Addis Ababa, Ethiopia</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
